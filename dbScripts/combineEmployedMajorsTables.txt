@@ -1,5 +1,0 @@
-#combine data from employed and majors tables
-
-SELECT e.major_code,m.major_category,m.major,e.total_students,e.employed
-FROM employed AS e, majors AS m 
-WHERE m.major_code=e.major_code;

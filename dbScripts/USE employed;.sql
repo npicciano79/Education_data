@@ -1,3 +1,2 @@
 
-SELECT total_students AS TS,employed AS E 
-FROM employed;
+USE college_majors_db;
